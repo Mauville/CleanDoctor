@@ -44,7 +44,7 @@ $anchor-text-decoration-hover: underline;
 
 // Inline Code
 
-$code-font-family: Inconsolata, Menlo, Monaco, 'Liberation Mono', Consolas, monospace;
+$code-font-family: Menlo, Monaco, 'Liberation Mono', Consolas, monospace;
 $code-font-size: emCalc(15px);
 $code-color: #3b3b3b;
 $code-font-weight: normal;
