@@ -1,15 +1,16 @@
 $body-bg: #fff;
 
 @import "defaults";
+@import "_bblg";
 
 // General settings
 
-$primary-color: #069;
+$primary-color: #006DBC;
 $global-radius: 0;
 
 // Body
 
-$body-font-color: #404040;
+$body-font-color: #2e2f3e;
 $body-font-size: 1.055em;
 $body-font-family: "SF Pro Text", "Helvetica", "Liberation Sans", Arial, sans-serif;
 
@@ -19,21 +20,22 @@ $body-font-family: "SF Pro Text", "Helvetica", "Liberation Sans", Arial, sans-se
 
 $header-font-family: "SF Pro Display", "Helvetica", "Liberation Sans", Arial, sans-serif;
 $header-font-size: 3.45em;
-$header-font-weight: normal;
-$header-font-color: black;
+$header-font-weight: 600;
+$header-font-color: #333;
+$title-font-color: #333;
 $header-top-margin: 1em;
 $title-font-weight: $header-font-weight;
 $sect-divider-size: 0;
 
 // Panels
 
-$panel-bg: #e5e5e5;
+$panel-bg: #f3f3f3;
 
 // Paragraphs
 
 $paragraph-font-family: $body-font-family;
 $paragraph-font-weight: 200;
-$paragraph-font-size: .975em;
+$paragraph-font-size: .99em;
 $paragraph-margin-bottom: emCalc(22px);
 $paragraph-line-height: 1.25;
 
@@ -88,5 +90,6 @@ $table-line-height: $paragraph-line-height;
 
 // Footer
 
+$footer-font-size: .74em;
 $footer-bg: white;
-$footer-font-color: #666;
+$footer-font-color: #c6c6c6;

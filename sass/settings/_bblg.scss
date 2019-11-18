@@ -1,0 +1,59 @@
+.bblg {
+    width: 48%;
+    height: auto;
+    padding: 2.6em;
+
+    p {
+        margin-bottom: .975em;
+        font-size: .86em;
+        ;
+    }
+
+
+    .title {
+        font-family: Consolas, 'Liberation Mono', Courier, monospace;
+        margin-bottom: .4em;
+    }
+
+    .bblg_fullname {
+        font-style: italic;
+    }
+
+    .bblg .content {
+        min-height: 300px;
+        max-height: 500px;
+        overflow: auto;
+        scrollbar-width: none;
+        scrollbar-color: blue #eee;
+    }
+}
+
+.flex {
+    .content {
+        flex-wrap: wrap;
+        justify-content: space-between;
+        display: flex;
+        align-items: flex-start;
+
+        .sidebarblock {
+            overflow: auto;
+            scrollbar-width: thin;
+            max-height: 33em;
+            border-radius: 1em;
+        }
+    }
+}
+
+.toc a {
+    color: #454545 !important;
+    text-decoration: none;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    transition: opacity 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.literalblock pre,
+.listingblock pre {
+    border-radius: 10px;
+
+}
