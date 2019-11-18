@@ -4,6 +4,9 @@
 This is a fork of the original Asciidoctor Stylesheet Factory,
 modified to create a clean, HIG compliant design.
 
+image::img_README_1.png[,200]
+image::img_README_2.png[,200]
+image::img_README_3.png[]
 == Foundation
 
 The stylesheets in this project are built using http://compass-style.org[Compass], a CSS authoring framework that uses http://sass-lang.com[Sass] to generate CSS files.
