@@ -4,9 +4,9 @@
 This is a fork of the original Asciidoctor Stylesheet Factory,
 modified to create a clean, HIG compliant design.
 
-image::img_README_1.png[,200]
-image::img_README_2.png[,200]
-image::img_README_3.png[]
+image::img_README_1.png[,800]
+image::img_README_2.png[,800]
+
 
 == Foundation
 
