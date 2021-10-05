@@ -27,16 +27,83 @@
   margin-bottom: 2em;
 }
 
+#footer-text{
+  margin-left: 2em;
+}
+
 .sect1 {
   padding-bottom: 0;
+}
+
+.quoteblock blockquote, .quoteblock p {
+  font-family: "SF Pro Rounded";
+  font-style: normal !important;
+  font-size: 1.2em;
+}
+
+.imageblock img{
+  text-align:center;
+}
+
+.imageblock>.title{
+  text-align:center;
+}
+
+#toc .sectlevel1>li>a{
+font-weight: bold;
+  font-size: 1.03em;
+}
+#toc .sectlevel3 a{
+font-weight: lighter;
+}
+
+#toc .sectlevel4 a{
+  font-weight: lighter;
+  font-size: .95em !important;
+}
+
+
+table{
+  border-radius: 7px;
 }
 
 ol > li p,
 ul > li p,
 ul dd,
 ol dd,
-.olist .olist, 
+.olist .olist,
 .ulist .olist,
 .olist .ulist {
   margin-bottom: $paragraph-margin-bottom / 4;
+}
+
+#content::after {
+    content: " ";
+    margin: 0 auto;
+    background-image: url(https://hyperpotion.ml/favicon.png);
+    padding: 13px;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+}
+
+// @media (min-width: 768px) {
+//   .sectlevel1::after {
+//       background-image: url(https://hyptn.ml/user/plugins/sleeky-backend/assets/img/logo_black.png);
+//       background-repeat: no-repeat;
+//       width: 100%;
+//       height: auto;
+//       content: " ";
+//       height: 200px;
+//       width: auto;
+//       padding: 24px 0 18px 0;
+//       background-size: contain;
+//       margin-top: auto;
+//       display: block;
+//       margin-left: 24px;
+//       position: absolute;
+//       bottom: 15px;
+//   }
+// }
+.imageblock{
+  text-align: center;
 }
